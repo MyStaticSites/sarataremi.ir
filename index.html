@@ -1,15 +1,121 @@
-<html lang="fa">
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple Persian (Farsi) page using Bootstrap 5 with a dark theme">
+    <meta name="keywords" content="فروش زعفران قائنات مشهد | فروش شیره انگور | فروش رب انار معمولی | فروش رب انار ملس | فروش پودر زعفران | فروش هل و پودر هل">
+    <meta name="author" content="Mr. Dariush Tasdighi - داریوش تصدیقی">
     <title>Sara Taremi - سارا طارمی</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'IRANSans', sans-serif;
+        }
+
+        .profile-img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .product-box {
+            background-color: #1e1e1e;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .social-icons a {
+            color: #ffffff;
+            font-size: 24px;
+        }
+
+        .center-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>
-        Sara Taremi
-    </h1>
-    <h1>
-        سارا طارمی
-    </h1>
+    <div class="container">
+        <!-- First Row -->
+        <div class="row my-4">
+            <div class="col-md-4">
+                <img src="SaraTaremi.jpg" alt="Profile Picture" class="profile-img">
+            </div>
+            <div class="col-md-8 center-content">
+                <h1>سارا طارمی</h1>
+                <p><i class="bi bi-phone"></i> شماره موبایل: 09051193200</p>
+                <p>لطفا جهت دریافت قیمت، تماس حاصل فرمایید</p>
+            </div>
+        </div>
+        <!-- Second Row -->
+        <div class="row">
+            <div class="col-md-4 col-sm-6 product-box">
+                <img src="Product_01.webp" alt="زعفران قائنات مشهد - درجه یک - یک مثقال" class="img-fluid">
+                <h5>
+                    زعفران قائنات مشهد - درجه یک - یک مثقال
+                </h5>
+            </div>
+            <div class="col-md-4 col-sm-6 product-box">
+                <img src="Product_02.webp" alt="Product 2" class="img-fluid">
+                <h5>
+                    شیره انگور - یک کیلویی
+                </h5>
+            </div>
+            <div class="col-md-4 col-sm-6 product-box">
+                <img src="Product_03.webp" alt="Product 3" class="img-fluid">
+                <h5>
+                    رب انار - ساده - یک کیلویی
+                </h5>
+            </div>
+            <div class="col-md-4 col-sm-6 product-box">
+                <img src="Product_04.webp" alt="Product 4" class="img-fluid">
+                <h5>
+                    رب انار - ملس - یک کیلویی
+                </h5>
+            </div>
+            <div class="col-md-4 col-sm-6 product-box">
+                <img src="Product_05.webp" alt="Product 5" class="img-fluid">
+                <h5>
+                    پودر زعفران
+                </h5>
+            </div>
+            <div class="col-md-4 col-sm-6 product-box">
+                <img src="product6.jpg" alt="Product 6" class="img-fluid">
+                <h5>
+                    هل و پودر هل
+                </h5>
+            </div>
+        </div>
+
+        <!-- Third Row -->
+        <div class="row my-4">
+            <div class="col-12">
+                <div class="social-icons">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
